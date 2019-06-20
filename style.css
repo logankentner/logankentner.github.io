@@ -1,0 +1,122 @@
+.selected {
+    transition: all .3s;
+}
+
+.personal-info {
+    border-bottom: #b0cfe9 solid 2px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 10vh;
+    width: 100%;
+}
+
+.footer-icons {
+    margin: 3% 15% 0 15%;
+}
+
+#facebook-icon {
+    color: #3C5A99;
+}
+
+#linkedin-icon {
+    color: #0077B5;
+}
+
+#twitter-icon {
+    color: #1DA1F2;
+}
+
+.social-icon {
+    transform: scale(3);
+}
+
+.social-icon:hover {
+    border-bottom: #e9e1b0 solid 1px;
+    transform: scale(3.3);
+    transition: all .2s;
+}
+
+.selected:hover {
+    transform: scale(1.1);
+    color: rgb(12, 19, 124);
+}
+
+.job-bullets {
+    display: inline-block;
+    padding-left: 1rem;
+    margin: .5rem 0 .5rem 0;
+    transition: all, .2s;
+}
+
+.job-bullets:hover {
+    border-bottom: solid 1px;
+}
+
+.circle-image-container {
+    display: inline-block;
+    position: relative;
+    width: 20vh;
+    height: 20vh;
+    overflow: hidden;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: #b0cfe9 solid 2px;
+}
+
+.profile-pic{
+    width: 100%;
+    height: 100%;
+}
+
+.display-5{
+    font-size: 1.5rem;
+}
+.clear {
+    clear: both;
+}
+
+.jumbotron{
+    background-image: url("skyline_vector.jpg");
+    background-color: #fff;
+    background: cover;
+    background-position-y: -10rem;
+}
+
+#page-header{
+    color: #000;
+    font-weight: 350;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.job-title {
+    display: inline;
+    float: left;
+}
+
+.date {
+    display: inline;
+    float: right;
+}
+
+.bg-1 {
+    background-color:#b0cfe9 !important;
+}
+
+.bg-2 {
+    background-color:#e9e1b0 !important;
+}
+
+.bg-3 {
+    background-color:#e9b0bf !important;
+}
+
+.bg-4{
+    background-color: #b0cfe93b
+}
+
+.bg-5{
+    background-color: #e9e1b02a
+}
